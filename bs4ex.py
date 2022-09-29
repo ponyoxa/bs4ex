@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # ターゲットとなるURLを設定する
-target_url = "https://laborify.net/"
+target_url = "https://"
 
 # requestsを使ってhtmlを取得する
 res = requests.get(target_url)
